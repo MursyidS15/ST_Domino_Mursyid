@@ -72,7 +72,7 @@ export default function HomePage() {
         <input
           type="number"
           placeholder="Input Number"
-          className="border p-2 rounded"
+          className="border p-2 rounded w-full"
           value={inputNumber}
           onChange={(e) => setInputNumber(e.target.value)}
 
